@@ -7,6 +7,7 @@ We cover the following topics:
 * **Quick nivelation:** state, props, lifecycle, clean architecture principles, dumb/smart components
 * **Hooks:** why, motivation; HooksRules, useState, useRef (dangerous), useEffect (performance issues of repainting)
 * **Custom Hooks**
+* **API Context:** why, motivation, use cases; useContext hook
 
 The duration of the course was almost ~ 25hs.
 
