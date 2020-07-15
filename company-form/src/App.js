@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import { CompanyForm } from './components/CompanyForm';
+import { Startups } from './components/Startups';
 import { NavBar } from './components/NavBar';
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <CompanyForm />
+      <Startups />
     </div>
   );
 }

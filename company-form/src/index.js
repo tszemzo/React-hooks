@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { CompanyForm } from './components/CompanyForm'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Router>
+    <Route exact path="/">
+      <App />
+    </Route>
+    <Route path="/startup-form" component={CompanyForm}></Route>
+  </Router>,
   document.getElementById('root')
 );
 
