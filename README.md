@@ -8,6 +8,7 @@ We cover the following topics:
 * **Hooks:** why, motivation; HooksRules, useState, useRef (dangerous), useEffect (performance issues of repainting)
 * **Custom Hooks**
 * **API Context:** why, motivation, use cases; useContext hook
+* **Routes:** we used here 'react-routes-dom' as an external library to learn how to deal with Routes
 
 The duration of the course was almost ~ 25hs.
 
